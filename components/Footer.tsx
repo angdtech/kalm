@@ -45,6 +45,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Support</h4>
             <ul className="space-y-3 text-gray-300">
+              <li><a href="/contact" className="hover:text-white transition-colors">Contact Us</a></li>
               <li><span className="text-gray-400">Support available in-app</span></li>
             </ul>
           </div>

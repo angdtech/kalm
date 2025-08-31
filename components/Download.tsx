@@ -124,27 +124,7 @@ export function Download() {
                 </li>
                 <li className="flex items-center">
                   <Check className="w-5 h-5 text-[#579989] mr-3" />
-                  <span className="text-gray-600">Extended content library</span>
-                </li>
-                <li className="flex items-center">
-                  <Check className="w-5 h-5 text-[#579989] mr-3" />
-                  <span className="text-gray-600">Advanced breathing sessions</span>
-                </li>
-                <li className="flex items-center">
-                  <Check className="w-5 h-5 text-[#579989] mr-3" />
-                  <span className="text-gray-600">Detailed analytics & insights</span>
-                </li>
-                <li className="flex items-center">
-                  <Check className="w-5 h-5 text-[#579989] mr-3" />
-                  <span className="text-gray-600">Premium themes & customization</span>
-                </li>
-                <li className="flex items-center">
-                  <Check className="w-5 h-5 text-[#579989] mr-3" />
-                  <span className="text-gray-600">Ad-free experience</span>
-                </li>
-                <li className="flex items-center">
-                  <Check className="w-5 h-5 text-[#579989] mr-3" />
-                  <span className="text-gray-600">Priority support</span>
+                  <span className="text-gray-600 font-semibold">Ad-free experience</span>
                 </li>
               </ul>
 
