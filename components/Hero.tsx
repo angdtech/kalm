@@ -29,10 +29,12 @@ export function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
-              <Button size="lg" className="bg-[#579989] hover:bg-[#31545F] text-white px-8 py-4">
-                <Download className="mr-2 h-5 w-5" />
-                Download Free
-              </Button>
+              <a href="https://link.dailykalm.com/hjI">
+                <Button size="lg" className="bg-[#579989] hover:bg-[#31545F] text-white px-8 py-4">
+                  <Download className="mr-2 h-5 w-5" />
+                  Download Free
+                </Button>
+              </a>
               <Button size="lg" variant="outline" className="border-[#579989] text-[#579989] hover:bg-[#579989] hover:text-white px-8 py-4">
                 <Sparkles className="mr-2 h-5 w-5" />
                 See Features
