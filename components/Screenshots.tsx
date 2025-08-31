@@ -1,8 +1,8 @@
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
-import hydrationQuest from 'figma:asset/a42d38bee3423997c4bc8cd5e2e2b5ab4f01b0b3.png';
-import breathingExercise from 'figma:asset/f9de5fb50a0c0232ac1f1d40a441168da7491aed.png';
-import affirmations from 'figma:asset/dd7b3fe3c44e55c48e39206a41046955dd7ffdd8.png';
+const hydrationQuest = 'https://res.cloudinary.com/dseqiohhu/image/upload/v1756634556/a42d38bee3423997c4bc8cd5e2e2b5ab4f01b0b3_itsusj.png';
+const breathingExercise = 'https://res.cloudinary.com/dseqiohhu/image/upload/v1756634555/f9de5fb50a0c0232ac1f1d40a441168da7491aed_a8r33w.png';
+const affirmations = 'https://res.cloudinary.com/dseqiohhu/image/upload/v1756634556/dd7b3fe3c44e55c48e39206a41046955dd7ffdd8_jerjhc.png';
 
 export function Screenshots() {
   const screenshots = [

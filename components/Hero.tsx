@@ -1,8 +1,8 @@
 import { Button } from "./ui/button";
 import { Sparkles, Download, Star, Flame } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import picoCharacter from 'figma:asset/78e6f3c8978542d2255f9b4159397f29bd31b3b3.png';
-import hydrationQuest from 'figma:asset/a42d38bee3423997c4bc8cd5e2e2b5ab4f01b0b3.png';
+const picoCharacter = 'https://res.cloudinary.com/dseqiohhu/image/upload/v1756634555/78e6f3c8978542d2255f9b4159397f29bd31b3b3_by7yu6.png';
+const hydrationQuest = 'https://res.cloudinary.com/dseqiohhu/image/upload/v1756634556/a42d38bee3423997c4bc8cd5e2e2b5ab4f01b0b3_itsusj.png';
 
 export function Hero() {
   return (
