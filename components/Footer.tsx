@@ -18,15 +18,14 @@ export function Footer() {
               Your personal wellness companion for building healthy habits and improving mental health.
             </p>
             <div className="flex space-x-4">
-              <div className="w-10 h-10 bg-[#579989]/20 rounded-lg flex items-center justify-center hover:bg-[#579989]/30 transition-colors cursor-pointer">
-                <Twitter className="w-5 h-5" />
-              </div>
-              <div className="w-10 h-10 bg-[#579989]/20 rounded-lg flex items-center justify-center hover:bg-[#579989]/30 transition-colors cursor-pointer">
+              <a href="https://www.tiktok.com/@kalmdaily?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-[#579989]/20 rounded-lg flex items-center justify-center hover:bg-[#579989]/30 transition-colors cursor-pointer">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/kalmdaily/?igsh=YWhjbnhzb21qMTY2&utm_source=qr" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-[#579989]/20 rounded-lg flex items-center justify-center hover:bg-[#579989]/30 transition-colors cursor-pointer">
                 <Instagram className="w-5 h-5" />
-              </div>
-              <div className="w-10 h-10 bg-[#579989]/20 rounded-lg flex items-center justify-center hover:bg-[#579989]/30 transition-colors cursor-pointer">
-                <Mail className="w-5 h-5" />
-              </div>
+              </a>
             </div>
           </div>
 
@@ -34,11 +33,11 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Features</h4>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="#" className="hover:text-white transition-colors">Daily Affirmations</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Breathing Exercises</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Mood Tracking</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Quest System</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Pico Pet</a></li>
+              <li><a href="#features" className="hover:text-white transition-colors">Daily Affirmations</a></li>
+              <li><a href="#features" className="hover:text-white transition-colors">Breathing Exercises</a></li>
+              <li><a href="#features" className="hover:text-white transition-colors">Mood Tracking</a></li>
+              <li><a href="#features" className="hover:text-white transition-colors">Quest System</a></li>
+              <li><a href="#features" className="hover:text-white transition-colors">Pico Pet</a></li>
             </ul>
           </div>
 
@@ -46,11 +45,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Support</h4>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Bug Reports</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Feature Requests</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Community</a></li>
+              <li><span className="text-gray-400">Support available in-app</span></li>
             </ul>
           </div>
 
@@ -58,11 +53,8 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Cookie Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">GDPR</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Licenses</a></li>
+              <li><a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
+              <li><a href="/terms" className="hover:text-white transition-colors">Terms of Service</a></li>
             </ul>
           </div>
         </div>
