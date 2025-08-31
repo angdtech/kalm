@@ -74,7 +74,10 @@ export function Hero() {
                 <div className="text-sm text-gray-600">Happy Users</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-[#31545F]">5.0★</div>
+                <div className="flex items-center justify-center">
+                  <span className="text-2xl font-bold text-[#31545F]">5.0</span>
+                  <span className="text-xl text-[#F9CDAE] ml-1">★</span>
+                </div>
                 <div className="text-sm text-gray-600">App Rating</div>
               </div>
               <div className="text-center">
