@@ -58,12 +58,7 @@ export default function SignUpPage() {
       <div className="w-full max-w-md px-4">
         {/* Logo */}
         <div className="text-center mb-8">
-          <Link href="/" className="inline-flex items-center space-x-3">
-            <img 
-              src="https://res.cloudinary.com/dseqiohhu/image/upload/v1756638141/IMG_2429_zj5wr6.png" 
-              alt="Mi Self Care Logo" 
-              className="w-12 h-12 rounded-lg"
-            />
+          <Link href="/" className="inline-flex items-center">
             <span className="text-3xl font-bold text-[#31545F]">Mi Self Care</span>
           </Link>
         </div>

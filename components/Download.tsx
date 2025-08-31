@@ -142,7 +142,7 @@ export function Download() {
         <div className="text-center mt-12">
           <p className="text-gray-600 max-w-2xl mx-auto">
             Available for iOS and Android. Download now and start building healthier habits 
-            with your new companion Pico. No signup required to get started.
+            with your new companion Pico. Sign up to get started on your wellness journey.
           </p>
         </div>
       </div>

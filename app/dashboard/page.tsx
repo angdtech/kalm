@@ -97,13 +97,8 @@ export default function DashboardPage() {
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-3">
-              <img 
-                src="https://res.cloudinary.com/dseqiohhu/image/upload/v1756638141/IMG_2429_zj5wr6.png" 
-                alt="Mi Self Care Logo" 
-                className="w-8 h-8 rounded-lg"
-              />
-              <span className="text-xl font-bold text-[#31545F]">Dashboard</span>
+            <div className="flex items-center">
+              <span className="text-xl font-bold text-[#31545F]">Mi Self Care Dashboard</span>
             </div>
             
             <div className="flex items-center space-x-4">
