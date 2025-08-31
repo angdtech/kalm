@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
+import { AuthProvider } from '../lib/auth-context'
 import '../index.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -65,7 +67,12 @@ export default function RootLayout({
         <meta name="theme-color" content="#31545F" />
       </head>
       <body className={inter.className}>
-        {children}
+        <AuthProvider>
+          {children}
+        </AuthProvider>
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        )}
       </body>
     </html>
   )
